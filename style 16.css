@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+.menu {
+
+    background-color: red;
+    color: brown;
+    position: relative;
+    
+
+    
+
+
+}
+.first  {
+
+}
+
+.menu_list1 {
+    
+}
+.menu_list2 {
+    background-color: white;
+    display: none;
+}
+.menu_list {
+    background-color: darkgoldenrod;
+    display: none;
+    
+   
+}
+.menu_pp {
+    background-color: darkgray;
+    display: none;
+}
+.second_menu {
+    background-color:chartreuse;
+    display: none;
+
+}
+.menu__list_list {
+    background-color: red;
+
+}
+li {
+    list-style: none;
+    
+    
+
+}
+ul {
+    list-style: none;
+    display: inline-block;
+
+}
+.menu:hover .menu_list {
+    display: block;
+}
+.menu_list>li:hover .menu_list2 {
+    display: block;
+
+}
+.menu_list>li:hover .menu_pp {
+    display: block;
+}
+.menu_pp>li:hover .second_menu { 
+    display: block;
+
+
+
+}
